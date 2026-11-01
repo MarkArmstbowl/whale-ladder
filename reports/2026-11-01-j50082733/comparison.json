@@ -1,0 +1,71 @@
+{
+  "accepted_harness": "h1",
+  "summary": [
+    {
+      "iteration": 1,
+      "harness": "h1",
+      "status": "evaluated",
+      "avg_success_rate": 0.0664,
+      "avg_mean_turn_count": 1.082,
+      "avg_reward": 0.0664,
+      "on_pareto": true,
+      "hypothesis": "",
+      "changes": "",
+      "axis": "?"
+    },
+    {
+      "iteration": 1,
+      "harness": "h2",
+      "status": "evaluated",
+      "avg_success_rate": 0.0,
+      "avg_mean_turn_count": 1.0,
+      "avg_reward": 0.0,
+      "on_pareto": true,
+      "hypothesis": "",
+      "changes": "",
+      "axis": "?"
+    },
+    {
+      "iteration": 1,
+      "harness": "h3",
+      "status": "evaluated",
+      "avg_success_rate": 0.0273,
+      "avg_mean_turn_count": 1.117,
+      "avg_reward": 0.0273,
+      "on_pareto": false,
+      "hypothesis": "",
+      "changes": "",
+      "axis": "?"
+    }
+  ],
+  "frontier": {
+    "_pareto": [
+      {
+        "harness": "h1",
+        "avg_success_rate": 0.0664,
+        "avg_mean_turn_count": 1.082
+      },
+      {
+        "harness": "h0",
+        "avg_success_rate": 0.0195,
+        "avg_mean_turn_count": 1.043
+      },
+      {
+        "harness": "h2",
+        "avg_success_rate": 0.0,
+        "avg_mean_turn_count": 1.0
+      }
+    ],
+    "_best": {
+      "harness": "h1",
+      "avg_success_rate": 0.0664,
+      "avg_mean_turn_count": 1.082
+    },
+    "mh_val": {
+      "best_harness": "h1",
+      "model_short": "qwen3.5-4b",
+      "success_rate": 0.0664,
+      "mean_turn_count": 1.082
+    }
+  }
+}

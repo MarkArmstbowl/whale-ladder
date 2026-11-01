@@ -1,0 +1,9 @@
+{
+  "repo_id": "Marstbowl/whale-chess-qwen35-4b-b1-20261101-j50082733",
+  "revision": "9b9184228cd0101e28eda54d4410783100c553f3",
+  "url": "https://huggingface.co/Marstbowl/whale-chess-qwen35-4b-b1-20261101-j50082733",
+  "checkpoint_path": "training_checkpoint/global_step_1",
+  "selected_harness": "harnesses/h1/harness.py",
+  "all_new_progress_uploaded": true,
+  "original_code_or_data_uploaded": false
+}
